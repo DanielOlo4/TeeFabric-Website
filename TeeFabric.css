@@ -4,6 +4,7 @@ body {
   font-size: 18px;
   color: white;
   margin: 0 auto;
+  max-height: 100vh;
 }
 
 header{
@@ -18,10 +19,7 @@ header{
 
 .settings{
   display: flex;
-  margin-bottom: 10px;
   height: 40px;
-  border-color: rgb(70, 68, 68);
- 
 }
 
 .hbutton{
@@ -33,7 +31,7 @@ header{
   border-bottom-right-radius: 10px;
 }
 .first{
-  height: 115vh;
+  height: 120vh;
   padding: 0 auto;
 }
 a{
@@ -177,6 +175,7 @@ cursor:pointer;
   display: flex;
   gap: 250px;
   justify-content:  center;
+ 
  }
 
  @media screen and (max-width: 600px) {
