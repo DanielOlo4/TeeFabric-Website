@@ -9,12 +9,13 @@ body {
 
 header{
   background-color: rgb(95, 8, 88);
-  margin-top: 0;
-  margin-bottom: -20px;
+  margin-top: -3px;
   justify-content: center;
   padding-left: 20px;
-  padding-right: 20px;
-  height: 15vh;
+  margin-right: 10px;
+  height: 16vh;
+  position: fixed;
+  width: 100%;
 }
 
 .settings{
@@ -22,6 +23,8 @@ header{
   height: 60px;
   vertical-align: auto;
   margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 5ric;
 }
 
 .hbutton{
@@ -33,13 +36,32 @@ header{
   border-bottom-right-radius: 10px;
 }
 .first{
-  height: 100%;
- margin-left: 15%;
- margin-right: 15%;
+  margin:0 auto; 
   background-color: rgb(245, 221, 245);
   color: black;
-  margin-top: 23px;
   margin-bottom: -50px;
+  background-image: url(./new\ logo.png);
+  background-size: cover;
+  width: 80%;
+  padding-top: 6%;
+  padding-left: -20px;
+  height: 50%;
+}
+
+.second{
+  padding-top: 6%;
+}
+
+.third{
+  padding-top: 8%;
+}
+.teater{
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  justify-items: left;
+  background-color: rgb(222, 215, 228);
 }
 .second{
 background-color: #fcf2ec;
@@ -62,6 +84,14 @@ a{
   margin-top: 25px;
 }
 
+.h3{
+  flex: block;
+  padding-left: 25px;
+}
+
+.width{
+  background-color: black;
+}
 .collection{
   color: green;
   display: flex;
@@ -72,9 +102,6 @@ a{
   border-radius: 20px;
   height: 60px;
   padding-right: 30px;
-}
-.title{
-  justify-items: center;
 }
 
 .head{
@@ -100,12 +127,21 @@ display: block;
   height: 110vh;
   justify-items: center;
   cursor:pointer;
+  padding-top: 600px;
+}
+
+.text{
+  text-align: center;
+  display: block;
 }
 
 .about{
   justify-items: center;
   margin-bottom: 0;
   margin-top: 0;
+  background-color: rgb(192, 162, 176);
+  padding: 20px;
+ display: flex;
 }
 
 .gallery{
